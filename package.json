@@ -2,7 +2,7 @@
   "name": "pm",
   "version": "1.0.0",
   "description": "项目管理前端工程",
-  "author": "马里",
+  "author": "PrincipleFirst",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

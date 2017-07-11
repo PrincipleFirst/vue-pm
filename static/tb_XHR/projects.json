@@ -1,0 +1,469 @@
+[
+  {
+    "_id": "58ec78c512d099f343ff57d9",
+    "name": "Teambition 新手引导",
+    "_creatorId": "58ec78bf5dd5232434e3c827",
+    "logo": "https://mailimg.teambition.com/logos/cover-demo.jpg",
+    "py": "txsyd",
+    "pinyin": "teambition xin shou yin dao",
+    "description": "点击这里，开启新的工作方式",
+    "category": "demo",
+    "_organizationId": null,
+    "visibility": "project",
+    "uniqueIdPrefix": "",
+    "isPublic": false,
+    "created": "2017-04-11T06:33:41.730Z",
+    "updated": "2017-04-26T07:22:27.659Z",
+    "isArchived": false,
+    "inviteLink": null,
+    "hasRight": 2,
+    "hasOrgRight": -2,
+    "organization": null,
+    "_defaultRoleId": null,
+    "_rootCollectionId": "58ec78c612d099f343ff582e",
+    "_defaultCollectionId": "58ec78c612d099f343ff582f",
+    "customfields": [],
+    "sortMethod": "custom",
+    "tasksCount": 0,
+    "postsCount": 0,
+    "eventsCount": 0,
+    "worksCount": 0,
+    "tagsCount": 0,
+    "membersCount": 0,
+    "applications": [
+      {
+        "_id": "56f157a3bf83e5868ef5aeed",
+        "name": "events",
+        "type": 1,
+        "order": 3
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef2",
+        "name": "groupchat",
+        "type": 1,
+        "order": 4
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeef",
+        "name": "markdown",
+        "type": 0,
+        "order": 5
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeec",
+        "name": "posts",
+        "type": 1,
+        "order": 1
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeeb",
+        "name": "tasks",
+        "type": 1,
+        "order": 0
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeee",
+        "name": "works",
+        "type": 1,
+        "order": 2
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef0",
+        "name": "bookkeeping",
+        "type": 1,
+        "order": 5
+      }
+    ],
+    "_roleId": 2,
+    "_orgRoleId": -2,
+    "unreadCount": 0,
+    "pushStatus": false,
+    "creator": {
+      "_id": "58ec78bf5dd5232434e3c827",
+      "name": "马里",
+      "avatarUrl": "https://striker.teambition.net/thumbnail/110r5313df547bd0b3e8f7f7f6e20e4f6577/w/100/h/100"
+    },
+    "starsCount": 0,
+    "isStar": false,
+    "plan": {
+      "status": "trial",
+      "expired": null,
+      "payType": "",
+      "paidCount": 0,
+      "membersCount": 10,
+      "days": 10000,
+      "objectType": "user",
+      "isExpired": false
+    },
+    "shortLink": "https://www.teambition.com/project/58ec78c512d099f343ff57d9"
+  },
+  {
+    "_id": "58ec7ce34352efa1566e9221",
+    "name": "测试项目1",
+    "_creatorId": "58ec70113396142a341eff12",
+    "logo": "https://mailimg.teambition.com/logos/cover-media.jpg",
+    "py": "csxm1",
+    "pinyin": "ce shi xiang mu 1",
+    "description": "测试项目1",
+    "category": "media",
+    "_organizationId": "58ec79467c294a2704469e2a",
+    "visibility": "project",
+    "uniqueIdPrefix": "",
+    "isPublic": false,
+    "created": "2017-04-11T06:51:15.042Z",
+    "updated": "2017-04-11T06:51:15.046Z",
+    "isArchived": false,
+    "inviteLink": null,
+    "hasRight": 0,
+    "hasOrgRight": 2,
+    "organization": {
+      "name": "华强电力自动化工程有限公司",
+      "description": "",
+      "logo": "https://dn-st.teambition.net/teambition/images/logo2.cfdc05ac.jpg",
+      "isPublic": false,
+      "_id": "58ec79467c294a2704469e2a",
+      "isExpired": true,
+      "plan": {
+        "status": "trial",
+        "expired": "2017-04-25T06:35:50.952Z",
+        "payType": "",
+        "paidCount": 0,
+        "membersCount": 10,
+        "days": -76,
+        "objectType": "organization",
+        "isExpired": true
+      }
+    },
+    "_defaultRoleId": null,
+    "_rootCollectionId": "58ec7ce34352efa1566e9222",
+    "_defaultCollectionId": "58ec7ce34352efa1566e9223",
+    "customfields": [],
+    "sortMethod": "custom",
+    "tasksCount": 0,
+    "postsCount": 0,
+    "eventsCount": 0,
+    "worksCount": 0,
+    "tagsCount": 0,
+    "membersCount": 0,
+    "applications": [
+      {
+        "_id": "56f157a3bf83e5868ef5aeed",
+        "name": "events",
+        "type": 1,
+        "order": 3
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef2",
+        "name": "groupchat",
+        "type": 1,
+        "order": 4
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeec",
+        "name": "posts",
+        "type": 1,
+        "order": 1
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeeb",
+        "name": "tasks",
+        "type": 1,
+        "order": 0
+      },
+      {
+        "_id": "58419b74493cd88cbff433b9",
+        "name": "timeView",
+        "type": 2,
+        "order": -1
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeee",
+        "name": "works",
+        "type": 1,
+        "order": 2
+      }
+    ],
+    "_roleId": 0,
+    "_orgRoleId": 2,
+    "unreadCount": 9,
+    "pushStatus": false,
+    "creator": {
+      "_id": "58ec70113396142a341eff12",
+      "name": "邵文强",
+      "avatarUrl": "https://striker.teambition.net/thumbnail/110r21b6ae7e72de1567937f9c80d893a983/w/100/h/100"
+    },
+    "starsCount": 0,
+    "isStar": false,
+    "shortLink": "https://www.teambition.com/project/58ec7ce34352efa1566e9221"
+  },
+  {
+    "_id": "58ff04b3a20ffe1818de8187",
+    "name": "敏捷开发",
+    "_creatorId": "58ec78bf5dd5232434e3c827",
+    "logo": "https://striker.teambition.net/thumbnail/110i19c6f27388ead7b33acf338731511e87/w/600/h/300",
+    "py": "mjkf",
+    "pinyin": "min jie kai fa",
+    "description": "",
+    "category": "template$rd$57724da34c47ee212fe171a8",
+    "_organizationId": null,
+    "visibility": "project",
+    "uniqueIdPrefix": "",
+    "isPublic": false,
+    "created": "2017-04-25T08:11:31.162Z",
+    "updated": "2017-04-25T08:11:46.551Z",
+    "isArchived": false,
+    "inviteLink": null,
+    "hasRight": 2,
+    "hasOrgRight": -2,
+    "organization": null,
+    "_defaultRoleId": null,
+    "_rootCollectionId": "58ff04b3a20ffe1818de818a",
+    "_defaultCollectionId": "58ff04b3a20ffe1818de818d",
+    "customfields": [],
+    "sortMethod": "custom",
+    "tasksCount": 0,
+    "postsCount": 0,
+    "eventsCount": 0,
+    "worksCount": 0,
+    "tagsCount": 0,
+    "membersCount": 0,
+    "applications": [
+      {
+        "_id": "56f157a3bf83e5868ef5aeed",
+        "name": "events",
+        "type": 1,
+        "order": 3
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef2",
+        "name": "groupchat",
+        "type": 1,
+        "order": 4
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeec",
+        "name": "posts",
+        "type": 1,
+        "order": 1
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeeb",
+        "name": "tasks",
+        "type": 1,
+        "order": 0
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeee",
+        "name": "works",
+        "type": 1,
+        "order": 2
+      }
+    ],
+    "_roleId": 2,
+    "_orgRoleId": -2,
+    "unreadCount": 0,
+    "pushStatus": false,
+    "creator": {
+      "_id": "58ec78bf5dd5232434e3c827",
+      "name": "马里",
+      "avatarUrl": "https://striker.teambition.net/thumbnail/110r5313df547bd0b3e8f7f7f6e20e4f6577/w/100/h/100"
+    },
+    "starsCount": 0,
+    "isStar": false,
+    "plan": {
+      "status": "trial",
+      "expired": null,
+      "payType": "",
+      "paidCount": 0,
+      "membersCount": 10,
+      "days": 10000,
+      "objectType": "user",
+      "isExpired": false
+    },
+    "shortLink": "https://www.teambition.com/project/58ff04b3a20ffe1818de8187"
+  },
+  {
+    "_id": "5900475908d1124a1c0f69ed",
+    "name": "产品进展",
+    "_creatorId": "58ec78bf5dd5232434e3c827",
+    "logo": "https://striker.teambition.net/thumbnail/110j5f4de30506e2b1f81b34cdfd1e7fb796/w/600/h/300",
+    "py": "cpjz",
+    "pinyin": "chan pin jin zhan",
+    "description": "",
+    "category": "template$rd$579ffff9e8e847bd259a9428",
+    "_organizationId": null,
+    "visibility": "project",
+    "uniqueIdPrefix": "",
+    "isPublic": false,
+    "created": "2017-04-26T07:08:09.591Z",
+    "updated": "2017-04-26T07:08:25.235Z",
+    "isArchived": false,
+    "inviteLink": null,
+    "hasRight": 2,
+    "hasOrgRight": -2,
+    "organization": null,
+    "_defaultRoleId": null,
+    "_rootCollectionId": "5900475908d1124a1c0f69f2",
+    "_defaultCollectionId": "5900475908d1124a1c0f69f8",
+    "customfields": [],
+    "sortMethod": "custom",
+    "tasksCount": 0,
+    "postsCount": 0,
+    "eventsCount": 0,
+    "worksCount": 0,
+    "tagsCount": 0,
+    "membersCount": 0,
+    "applications": [
+      {
+        "_id": "56f157a3bf83e5868ef5aeed",
+        "name": "events",
+        "type": 1,
+        "order": 3
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef2",
+        "name": "groupchat",
+        "type": 1,
+        "order": 4
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeec",
+        "name": "posts",
+        "type": 1,
+        "order": 1
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeeb",
+        "name": "tasks",
+        "type": 1,
+        "order": 0
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeee",
+        "name": "works",
+        "type": 1,
+        "order": 2
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef0",
+        "name": "bookkeeping",
+        "type": 1,
+        "order": 5
+      }
+    ],
+    "_roleId": 2,
+    "_orgRoleId": -2,
+    "unreadCount": 0,
+    "pushStatus": false,
+    "creator": {
+      "_id": "58ec78bf5dd5232434e3c827",
+      "name": "马里",
+      "avatarUrl": "https://striker.teambition.net/thumbnail/110r5313df547bd0b3e8f7f7f6e20e4f6577/w/100/h/100"
+    },
+    "starsCount": 0,
+    "isStar": false,
+    "plan": {
+      "status": "trial",
+      "expired": null,
+      "payType": "",
+      "paidCount": 0,
+      "membersCount": 10,
+      "days": 10000,
+      "objectType": "user",
+      "isExpired": false
+    },
+    "shortLink": "https://www.teambition.com/project/5900475908d1124a1c0f69ed"
+  },
+  {
+    "_id": "590048effd8593181c32e090",
+    "name": "OKR 管理",
+    "_creatorId": "58ec78bf5dd5232434e3c827",
+    "logo": "https://striker.teambition.net/thumbnail/110i4038065c0a1ca807401e79554b26b6b8/w/600/h/300",
+    "py": "ogl",
+    "pinyin": "okr guan li",
+    "description": "",
+    "category": "template$operations$57733aec21e3c3d26c64bc2a",
+    "_organizationId": null,
+    "visibility": "project",
+    "uniqueIdPrefix": "",
+    "isPublic": false,
+    "created": "2017-04-26T07:14:55.827Z",
+    "updated": "2017-04-26T07:14:55.827Z",
+    "isArchived": false,
+    "inviteLink": null,
+    "hasRight": 2,
+    "hasOrgRight": -2,
+    "organization": null,
+    "_defaultRoleId": null,
+    "_rootCollectionId": "590048effd8593181c32e095",
+    "_defaultCollectionId": "590048effd8593181c32e099",
+    "customfields": [],
+    "sortMethod": "custom",
+    "tasksCount": 0,
+    "postsCount": 0,
+    "eventsCount": 0,
+    "worksCount": 0,
+    "tagsCount": 0,
+    "membersCount": 0,
+    "applications": [
+      {
+        "_id": "56f157a3bf83e5868ef5aeed",
+        "name": "events",
+        "type": 1,
+        "order": 3
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aef2",
+        "name": "groupchat",
+        "type": 1,
+        "order": 4
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeec",
+        "name": "posts",
+        "type": 1,
+        "order": 1
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeeb",
+        "name": "tasks",
+        "type": 1,
+        "order": 0
+      },
+      {
+        "_id": "56f157a3bf83e5868ef5aeee",
+        "name": "works",
+        "type": 1,
+        "order": 2
+      },
+      {
+        "_id": "57105d71bf83e5868e22dc4a",
+        "name": "tasklist",
+        "type": 0,
+        "order": 0
+      }
+    ],
+    "_roleId": 2,
+    "_orgRoleId": -2,
+    "unreadCount": 0,
+    "pushStatus": false,
+    "creator": {
+      "_id": "58ec78bf5dd5232434e3c827",
+      "name": "马里",
+      "avatarUrl": "https://striker.teambition.net/thumbnail/110r5313df547bd0b3e8f7f7f6e20e4f6577/w/100/h/100"
+    },
+    "starsCount": 0,
+    "isStar": false,
+    "plan": {
+      "status": "trial",
+      "expired": null,
+      "payType": "",
+      "paidCount": 0,
+      "membersCount": 10,
+      "days": 10000,
+      "objectType": "user",
+      "isExpired": false
+    },
+    "shortLink": "https://www.teambition.com/project/590048effd8593181c32e090"
+  }
+]

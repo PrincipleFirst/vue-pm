@@ -1,0 +1,104 @@
+{
+  "_id": "58ec78bf5dd5232434e3c827",
+  "email": "364753362@qq.com",
+  "name": "马里",
+  "avatarUrl": "https://striker.teambition.net/thumbnail/110r5313df547bd0b3e8f7f7f6e20e4f6577/w/100/h/100",
+  "created": "2017-04-11T06:33:35.509Z",
+  "title": "",
+  "birthday": null,
+  "location": "",
+  "phone": "",
+  "isActive": false,
+  "website": "",
+  "pinyin": "ma li",
+  "py": "ml",
+  "isNew": false,
+  "plan": {
+    "status": "trial",
+    "expired": null,
+    "payType": "",
+    "paidCount": 0,
+    "membersCount": 10,
+    "days": 10000,
+    "objectType": "user",
+    "isExpired": false
+  },
+  "notification": {
+    "comment": {
+      "mobile": true,
+      "email": false
+    },
+    "newpost": {
+      "mobile": true,
+      "email": false
+    },
+    "newtask": {
+      "mobile": true,
+      "email": false
+    },
+    "newwork": {
+      "mobile": true,
+      "email": false
+    },
+    "newevent": {
+      "mobile": true,
+      "email": false
+    },
+    "involve": {
+      "mobile": true,
+      "email": false
+    },
+    "update": {
+      "mobile": true,
+      "email": false
+    },
+    "daily": {
+      "email": true
+    },
+    "monthly": {
+      "email": true
+    }
+  },
+  "region": "cn",
+  "lastEntered": {
+    "web": "2017-07-11T07:04:19.124Z"
+  },
+  "fromTitle": "teambition_email",
+  "_invitorId": "",
+  "language": "zh",
+  "aliens": [],
+  "strikerAuth": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1OGVjNzhiZjVkZDUyMzI0MzRlM2M4MjciLCJleHAiOjE0OTk5Mjk0NTksInN0b3JhZ2UiOiJzdHJpa2VyLWh6In0.DbtpHas4riz7hL0_0V9E5prdCg4DU4xd51xDUFv4H20",
+  "phoneForLogin": "",
+  "enabledGoogleTwoFactor": false,
+  "emails": [
+    {
+      "email": "364753362@qq.com",
+      "state": 0,
+      "_id": "58ec78bf5dd5232434e3c828",
+      "id": "58ec78bf5dd5232434e3c828"
+    }
+  ],
+  "snapperToken": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0OTk5Mjk0NTksInVzZXJJZCI6IjU4ZWM3OGJmNWRkNTIzMjQzNGUzYzgyNyIsInNvdXJjZSI6InRlYW1iaXRpb24ifQ.QrR9gkR1ARLBHwwUoCTCHVbgEDyENekfYIVVipekJ2I",
+  "tcmToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJRCI6IjU5MzdiMTBiODM5NjMyMDA0NDRiMWZmOCIsImV4cCI6MTUwMDM2MTQ1OSwic291cmNlIjoidGVhbWJpdGlvbiIsInVzZXJJZCI6IjU4ZWM3OGJmNWRkNTIzMjQzNGUzYzgyNyJ9.q7YkdtU34OJRhwPHzmPFebBpJ_DM-4Clm6xs1Vtvgx0",
+  "crossNotify": {
+    "badge": 0
+  },
+  "locationByIP": {
+    "country": "China",
+    "region": "Heilongjiang",
+    "city": "Harbin"
+  },
+  "later": 0,
+  "normal": 4,
+  "ated": 0,
+  "private": 0,
+  "badge": 4,
+  "hasNormal": true,
+  "hasAted": false,
+  "hasLater": false,
+  "hasPrivate": false,
+  "inbox": 4,
+  "calLink": "webcal://www.teambition.com/api/events/ca5487abcbe928bc4f0a07f93a68fe1f8ff4ded45a8e434eb1164f72dca1138b.ics",
+  "taskCalLink": "webcal://www.teambition.com/api/tasks/54b78c3f132bd70fc12e23c7d7c6b8776edd978445b70494d8e052df851d8568.ics",
+  "joinedProjectsCount": 5
+}

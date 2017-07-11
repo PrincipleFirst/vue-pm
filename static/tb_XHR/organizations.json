@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "58ec79467c294a2704469e2a",
+    "name": "华强电力自动化工程有限公司",
+    "_creatorId": "58ec78bf5dd5232434e3c827",
+    "logo": "https://dn-st.teambition.net/teambition/images/logo2.cfdc05ac.jpg",
+    "description": "",
+    "category": "",
+    "pinyin": "hua qiang dian li zi dong hua gong cheng you xian gong si",
+    "py": "hqdlzdhgcyxgs",
+    "isPublic": false,
+    "dividers": [],
+    "projectIds": [],
+    "created": "2017-04-11T06:35:50.952Z",
+    "background": "",
+    "plan": {
+      "status": "trial",
+      "expired": "2017-04-25T06:35:50.952Z",
+      "payType": "",
+      "paidCount": 0,
+      "membersCount": 10,
+      "days": -76,
+      "objectType": "organization",
+      "isExpired": true
+    },
+    "_defaultRoleId": null,
+    "_defaultOrgRoleId": null,
+    "_defaultTeamId": "58ec794610142c6bce7c9bff",
+    "staffTypes": [],
+    "positions": [],
+    "okrProgressMode": "manual",
+    "hasRight": 2,
+    "_roleId": 2
+  }
+]
