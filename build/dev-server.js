@@ -22,6 +22,17 @@ var proxyTable = config.dev.proxyTable
 
 var app = express()
 var compiler = webpack(webpackConfig)
+var apiRoutes = express.Router()
+
+apiRoutes.get('/getProjects', function (req, res) {
+  var projects = require('../static/tb_XHR/projects.json')
+  res.json({
+    code: 0,
+    data: projects
+  });
+})
+
+app.use('/api', apiRoutes)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: webpackConfig.output.publicPath,

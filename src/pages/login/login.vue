@@ -130,7 +130,6 @@
 
       },
       register() {
-        console.log(this.passWord)
         if (!this.userName) {
           this.userNameNoPass = true
           this.userNameErr = '请填写姓名'
@@ -154,8 +153,6 @@
         return
       },
       fadeOut(el) {
-        console.log(el.target)
-        console.log(el.target.name)
         let inputName = el.target.name
         let errTipClass = el.target.nextSibling.nextSibling.classList
         if (errTipClass.contains('is-visible')) {
