@@ -12,9 +12,9 @@
                 <div class="project-section__header__right"></div>
               </div>
               <ul class="project-grid-group__component">
-                <li class="project-grid-group__item">
+                <li class="project-grid-group__item" v-for="item in projects">
                   <div class="project-grid-card__component project-grid-group__card personal-portal__project-grid-card"
-                       style="background-image: url(&quot;https://striker.teambition.net/thumbnail/110j5f4de30506e2b1f81b34cdfd1e7fb796/w/600/h/300&quot;);">
+                       :style="{backgroundImage: 'url('+item.logo+')'}">
                     <div class="project-grid-card__header">
                       <div class="project-grid-card__header__top"><span class="project-grid-card__name hinted"
                                                                         data-title="产品进展">产品进展</span><span
@@ -54,8 +54,26 @@
 
 <script type="text/ecmascript-6">
 import MHeader from 'components/header/header'
+import {getProjects} from 'api/home'
 
 export default {
+  data() {
+    return {
+      projects: []
+    }
+  },
+  created() {
+    this._getProjects()
+  },
+  methods: {
+    _getProjects() {
+      getProjects().then((res) => {
+        if (res.code === 0) {
+          this.projects = res.data
+        }
+      })
+    }
+  },
   components: {
     MHeader
   }
