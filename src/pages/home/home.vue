@@ -54,21 +54,8 @@
 
 <script type="text/ecmascript-6">
 import MHeader from 'components/header/header'
-import {getProjects} from 'api/home'
 
 export default {
-  created() {
-    this._getProjects()
-  },
-  methods: {
-    _getProjects() {
-      getProjects().then((res) => {
-        if (res.code === 0) {
-          console.log(res.data)
-        }
-      })
-    }
-  },
   components: {
     MHeader
   }
