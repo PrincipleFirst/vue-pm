@@ -17,7 +17,7 @@
                        :style="{backgroundImage: 'url('+item.logo+')'}">
                     <div class="project-grid-card__header">
                       <div class="project-grid-card__header__top"><span class="project-grid-card__name hinted"
-                                                                        data-title="产品进展">产品进展</span><span
+                                                                        :data-title="item.name">{{item.name}}</span><span
                         class="project-grid-card__hidden-handlers"><a
                         class="project-grid-card__hidden-handlers__item project-grid-card__edit-handler hinted"
                         data-title="打开项目设置"><span class="icon icon-pencil"></span></a><a
