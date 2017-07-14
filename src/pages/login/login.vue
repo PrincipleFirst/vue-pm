@@ -149,7 +149,7 @@
         }
       },
       login() {
-        this.$router.push({path: '/home'})
+        this.$router.push('/projects')
         return
       },
       fadeOut(el) {
