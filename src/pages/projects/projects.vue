@@ -55,7 +55,7 @@
 
 <script type="text/ecmascript-6">
   import MHeader from 'components/header/header'
-//  import { getProjects } from 'api/projects'
+  import { getProjects } from 'api/projects'
 
   export default {
     data() {
@@ -64,16 +64,16 @@
       }
     },
     created() {
-//      this._getProjects()
+      this._getProjects()
     },
     methods: {
-//      _getProjects() {
-//        getProjects().then((res) => {
-//          if (res.code === 0) {
-//            this.projects = res.data
-//          }
-//        })
-//      }
+      _getProjects() {
+        getProjects().then((res) => {
+          if (res.code === 0) {
+            this.projects = res.data
+          }
+        })
+      }
     },
     components: {
       MHeader
