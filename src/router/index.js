@@ -1,35 +1,34 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import store from './store'
+import store from 'store/index'
+import * as types from 'store/mutation-types'
 import Login from 'pages/login/login'
 import Projects from 'pages/projects/projects'
 
 Vue.use(Router)
 
-const routes = {
-  mode: 'history',
-  routes: [
-    {
-      path: '/projects',
-      meta: {
-        requireAuth: true  // 添加该字段，表示进入这个路由是需要登录的
-      },
-      component: Projects,
-      alias: '/' || '/projects'
+const routes = [
+  {
+    path: '/projects',
+    meta: {
+      requireAuth: true  // 添加该字段，表示进入这个路由是需要登录的
     },
-    {
-      path: '/login',
-      component: Login
-    }
-  ]
-}
+    component: Projects,
+    alias: '/' || '/projects'
+  },
+  {
+    path: '/login',
+    component: Login
+  }
+]
 
 // 页面刷新时，重新赋值token
 if (window.localStorage.getItem('token')) {
-  store.commit(types.LOGIN, window.localStorage.getItem('token'))
+  store.commit(types.SET_LOGIN, window.localStorage.getItem('token'))
 }
 
 const router = new Router({
+  mode: 'history',
   routes
 })
 

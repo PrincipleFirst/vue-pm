@@ -1,15 +1,15 @@
 import * as types from './mutation-types'
 
 const mutations = {
-  [types.LOGIN]: (state, data) => {
+  [types.SET_LOGIN]: (state, data) => {
     localStorage.token = data
     state.token = data
   },
-  [types.LOGOUT]: (state) => {
+  [types.SET_LOGOUT]: (state) => {
     localStorage.removeItem('token')
     state.token = null
   },
-  [types.TITLE]: (state, data) => {
+  [types.SET_TITLE]: (state, data) => {
     state.title = data
   }
 }
