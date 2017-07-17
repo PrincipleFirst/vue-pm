@@ -2,10 +2,20 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import store from 'store/index'
 import * as types from 'store/mutation-types'
-import Login from 'pages/login/login'
-import Projects from 'pages/projects/projects'
 
 Vue.use(Router)
+
+const Login = (resolve) => {
+  import('pages/login/login').then((module) => {
+    resolve(module)
+  })
+}
+
+const Projects = (resolve) => {
+  import('pages/projects/projects').then((module) => {
+    resolve(module)
+  })
+}
 
 const routes = [
   {
