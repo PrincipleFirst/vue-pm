@@ -1,7 +1,7 @@
 import axios from 'axios'
 import store from 'store/index'
 import * as types from 'store/mutation-types'
-import router from 'router/index'
+import router from 'router'
 
 // axios 配置
 axios.defaults.timeout = 5000
