@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import store from 'store/index'
-import * as types from 'store/mutation-types'
+// import * as types from 'store/mutation-types'
 
 Vue.use(Router)
 
@@ -33,9 +33,9 @@ const routes = [
 ]
 
 // 页面刷新时，重新赋值token
-if (window.localStorage.getItem('token')) {
-  store.commit(types.SET_LOGIN, window.localStorage.getItem('token'))
-}
+// if (window.localStorage.getItem('token')) {
+// store.commit(types.SET_LOGIN, 7788945)
+// }
 
 const router = new Router({
   mode: 'history',
@@ -43,7 +43,7 @@ const router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
-  if (to.matched.some(r => r.meta.requireAuth)) {
+  if (to.meta.requireAuth) {
     if (store.state.token) {
       next()
     } else {

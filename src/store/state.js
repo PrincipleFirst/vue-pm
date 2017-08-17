@@ -1,6 +1,6 @@
 const state = {
   user: {},
-  token: 7788945,
+  token: null,
   title: ''
 }
 

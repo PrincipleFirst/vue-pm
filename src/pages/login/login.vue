@@ -58,7 +58,7 @@
             </el-tab-pane>
             <el-tab-pane label="登录" name="second">
               <div class="view view-signin" data-za-module="SignInForm" style="display: block;">
-                <form method="POST" novalidate="novalidate">
+                <form>
                   <input type="hidden" name="_xsrf" value="3a2da72b2a333ca1d0dd383de04b1d5a">
                   <div class="group-inputs">
 
@@ -86,7 +86,7 @@
 
                   </div>
                   <div class="button-wrapper command">
-                    <button class="sign-button submit" type="submit"@click="login()">登录</button>
+                    <button class="sign-button submit" type="button" @click="login()">登录</button>
                   </div>
                 </form>
               </div>
@@ -103,7 +103,8 @@
   /* eslint-disable no-undef,no-unused-vars */
   import 'static/css/login.css'
   import particles from 'particles.js'
-  import is from 'is_js'
+  import {mapState, mapMutations} from 'vuex'
+
   export default {
     data() {
       return {
@@ -126,8 +127,10 @@
       rightPhoneNumber: () => /^1\d{10}$/gi.test(this.phoneNumber)
     },
     methods: {
+      ...mapMutations([
+        'SET_LOGIN'
+      ]),
       handleClick(tab, event) {
-
       },
       register() {
         if (!this.userName) {
@@ -149,8 +152,8 @@
         }
       },
       login() {
+        this.SET_LOGIN(7788945)
         this.$router.push('/projects')
-        return
       },
       fadeOut(el) {
         let inputName = el.target.name
