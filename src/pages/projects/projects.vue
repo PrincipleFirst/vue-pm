@@ -16,13 +16,16 @@
                 <div class="project-grid-card__component project-grid-group__card personal-portal__project-grid-card"
                      :style="{backgroundImage: 'url('+item.logo+')'}">
                   <div class="project-grid-card__header">
-                    <div class="project-grid-card__header__top"><span class="project-grid-card__name hinted"
-                                                                      :data-title="item.name">{{item.name}}</span><span
-                      class="project-grid-card__hidden-handlers"><a
-                      class="project-grid-card__hidden-handlers__item project-grid-card__edit-handler hinted"
-                      data-title="打开项目设置"><span class="icon icon-pencil"></span></a><a
-                      class="project-grid-card__hidden-handlers__item project-grid-card__star-handler hinted"
-                      data-title="星标"><span class="icon icon-star"></span></a></span></div>
+                    <div class="project-grid-card__header__top">
+                      <span class="project-grid-card__name hinted" :data-title="item.name">{{item.name}}</span>
+                      <span class="project-grid-card__hidden-handlers">
+                        <a class="project-grid-card__hidden-handlers__item project-grid-card__edit-handler hinted" data-title="打开项目设置">
+                          <span class="icon icon-pencil"></span></a>
+                        <a class="project-grid-card__hidden-handlers__item project-grid-card__star-handler hinted" data-title="星标">
+                          <span class="icon icon-star"></span>
+                        </a>
+                      </span>
+                    </div>
                     <div class="project-grid-card__header__bottom"></div>
                   </div>
                   <div class="project-grid-card__footer"></div>

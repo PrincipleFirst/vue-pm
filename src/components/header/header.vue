@@ -12,9 +12,8 @@
               class="form-control search-bar-input" placeholder="在个人项目中搜索" value="" maxlength="50"></div>
           </div>
         </div>
-        <div class="nav-create"><a class="nav-create-handler"
-                                   data-gta="{action: 'open global add menu', control: 'Global Add Button'}"
-                                   data-toggle="dropdown"> <span class="icon icon-circle-plus"></span> </a>
+        <div class="nav-create" :class="open">
+          <a class="nav-create-handler" data-toggle="dropdown" @click="Dropdown()"> <span class="icon icon-circle-plus"></span> </a>
           <div class="nav-create-menu dropdown-menu card ">
             <ul class="main-list">
               <li class="create-project" data-gta="{action: 'add content', type: 'project' control: 'Global Add Menu'}">
@@ -38,7 +37,7 @@
           </div>
         </div>
       </section>
-      <footer class="nav-footer"><a class="new-ribbon hide" data-gta="{action: 'new ribbon', control: 'Navigation Tab'}"
+      <footer class="nav-footer"><a class="new-ribbon"
                                     href="https://blog.teambition.com/zh/updates" target="_blank">新功能</a>
         <div class="nav-footer-wrap user-footer-wrap"><a class="nav-footer-handler" data-mark="my-avatar"
                                                          data-toggle="dropdown"
@@ -84,7 +83,24 @@
 </template>
 
 <script type="text/ecmascript-6">
-  export default {}
+  export default {
+    data() {
+      return {
+        openFlag: false
+      }
+    },
+    computed: {
+      open() {
+        return this.openFlag ? 'open' : ''
+      }
+    },
+    methods: {
+      Dropdown() {
+        if (this.openFlag) this.openFlag = false
+        else this.openFlag = true
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
