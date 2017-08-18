@@ -56,7 +56,7 @@
 <script type="text/ecmascript-6">
   import 'static/css/teambition.css'
   import MHeader from 'components/header/header'
-//  import { getProjects } from 'api/projects'
+  import { getProjects } from 'api/projects'
 
   export default {
     data() {
@@ -64,18 +64,18 @@
         projects: []
       }
     },
-//    created() {
-//      this._getProjects()
-//    },
-//    methods: {
-//      _getProjects() {
-//        getProjects().then((res) => {
-//          if (res.code === 0) {
-//            this.projects = res.data
-//          }
-//        })
-//      }
-//    },
+    created() {
+      this._getProjects()
+    },
+    methods: {
+      _getProjects() {
+        getProjects().then((res) => {
+          if (res.code === 0) {
+            this.projects = res.data
+          }
+        })
+      }
+    },
     components: {
       MHeader
     }
